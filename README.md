@@ -5,8 +5,8 @@ The data is a bank marketing dataset.The Problem statement is to predict whether
 
 ## Objective:
 The following are the objectives for this project
-- To train a logistic regression model in AzureML and tune its hyperparameters using Hyperdrive
-- To set AutoML in AzureML and come up with a best model for the probelem
+- To train a logistic regression model in AzureML and tune its hyperparameters using Hyperdrive.
+- To set AutoML in AzureML and come up with a best model for the problem.
 - To compare and contrast the above two approaches. 
 
 ## Overall Solutioning:
