@@ -39,6 +39,7 @@ The AutoML is run for 30 minutes with 30 iterations meaning 30 different combina
 
 
 ![Alt text](static/automl_result_2.png?raw=true "Title2")
+### Result:
 
 ### Result:
 A **maximum accuracy of 0.918** was got using a **voting ensemble classifier**. Other metrics are also shown below.
