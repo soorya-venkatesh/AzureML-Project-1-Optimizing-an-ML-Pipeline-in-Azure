@@ -32,13 +32,19 @@ The best value of **"C" was 693.1** and best value of **"max_iter" was 125**. Th
 
 
 ## AutoML Experiment Details:
-AutoML config:
-The AutoML is run for 30 minutes with 30 iterations meaning 30 different combinations of models are tried. A 5 fold cross validation was used to test the data instead of a ordinary train-test split.
+### AutoML config:
+
+![Alt text](static/automl_config.PNG?raw=true "Title")
+- The AutoML is run for 30 minutes with 30 iterations meaning 30 different combinations of models are tried.
+-  A 5 fold cross validation was used to test the data instead of a ordinary train-test split.
+-  The task given was 'classification' since this was a binary classification problem
+-  The primary metric of intrest was given to be 'accuracy'
+-  The path for the dataset ('training_data') and the and the target column in the data ('label_column_name') was also mentioned.
+
+For full list of available parameters in AutoML config , the official documentation link can be found [here](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train).
 
 ### Run Details:
-
-
-
+The below screenshots reprsents the models used by AutoML along with its training time and metric. 
 ![Alt text](static/automl_result_1.png?raw=true "Title1")
 
 
