@@ -32,9 +32,11 @@ The best value of **"C" was 693.1** and best value of **"max_iter" was 125**. Th
 
 
 ## AutoML Experiment Details:
+AutoML config:
+The AutoML is run for 30 minutes with 30 iterations meaning 30 different combinations of models are tried. A 5 fold cross validation was used to test the data instead of a ordinary train-test split.
 
 ### Run Details:
-The AutoML is run for 30 minutes with 30 iterations meaning 30 different combinations of models are tried. A 5 fold cross validation was used to test the data instead of a ordinary train-test split.
+
 
 
 ![Alt text](static/automl_result_1.png?raw=true "Title1")
