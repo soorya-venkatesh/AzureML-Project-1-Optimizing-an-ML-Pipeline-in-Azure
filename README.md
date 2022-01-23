@@ -19,6 +19,8 @@ The following are the objectives for this project
 
 ### Parameter Sampling Stratergy:
 Random Search was used to find the best value of "C" and "max_iter". The search space for "C" is [0.0001,1000] and search space for "max_iter" was {75,125}.
+#### Benifits of Parameter Sampling:
+In any machine learning problem in order to find the optimal value(s) of weights , a search stratergy is used. Some of them are Random search (picking hyperparameter combinations at random and choosing the one with least loss or best metric ) , grid search (iteratively going through all possibilities of hyperparameter combinations and choosing the one with the least loss or best metric) , Bayesian search (using Bayesian stratergies to search for the best hyperparameter combination) etc.  
 
 ### Early Stopping Policy:
 A bandit policy of slack factor=0.17 and evaluation_interval=2 is being used. A slack factor=0.17 will terminate the training when if the metric at the current iteration is 17% less than the best performing metric. evaluation_interval=2 means that this evaluation will happen once every 2 iterations.  
