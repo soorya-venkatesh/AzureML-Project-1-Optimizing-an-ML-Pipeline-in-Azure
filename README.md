@@ -4,8 +4,6 @@
 The data is a bank marketing dataset.The Problem statement is to predict whether a customer will make a deposit or not (binary classification problem) given a set of attributes. 
 
 
-
-
 ## Objective:
 The following are the objectives for this project
 - To train a logistic regression model in AzureML and tune its hyperparameters using Hyperdrive.
@@ -23,6 +21,8 @@ The data contains 32950 rows of people containing carious features .Some of the 
     - For AutoML ; the data is imported , AutoML config is created which includes a 5 fold cross validation and run to find best model, find the accuracy on test data and save the best model.
 
 ## Hyperdrive Experiment Details:
+### Type of classification algorithm used:
+The algorithm used for this classification problem was logistic regression. The hyperparameters used for this were C (which is inverse of the regularization strength) and max_iter(number of maximum iterations which can be used for convergence )
 
 ### Parameter Sampling Stratergy:
 Random Search was used to find the best value of "C" and "max_iter". The search space for "C" is [0.0001,1000] and search space for "max_iter" was {75,125}.
