@@ -41,7 +41,7 @@ The AutoML is run for 30 minutes with 30 iterations meaning 30 different combina
 ![Alt text](static/automl_result_2.png?raw=true "Title2")
 ### Future Work:
 - For the hyperdrive config, a Bayesian search can be used to check out the results 
-- For Auto ML, increasing the number of iterations and total training time could lead to btter results. So that can be a intresting experiment to try out.
+- For Auto ML, increasing the number of iterations and total training time could lead to better results. So that can be a intresting experiment to try out.
 - Trying to increase increase the number of folds in the cross validation for the Auto ML 
 
 ### Result:
