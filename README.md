@@ -3,11 +3,18 @@
 ## Problem Statement:
 The data is a bank marketing dataset.The Problem statement is to predict whether a customer will make a deposit or not (binary classification problem) given a set of attributes. 
 
+
+
+
 ## Objective:
 The following are the objectives for this project
 - To train a logistic regression model in AzureML and tune its hyperparameters using Hyperdrive.
 - To set AutoML in AzureML and come up with a best model for the problem.
 - To compare and contrast the above two approaches. 
+
+## The dataset used:
+
+The data contains 32950 rows of people containing carious features .Some of the features include age, martial status,job ,has taken a loan or not and correspondiong date information like month,week etc. It also contains the target variable "Y" which contains 2 values - Yes/No. This target variable must be related to the response of these customers to some marketing campaign. **The overall objective** would be to predict the target variable 'Y' given the set of features. 
 
 ## Overall Solutioning:
 - The train.py contains a pipeline which gets dataset using TabularDatasetFactory class, pre processes the data , split into train and test sets and accepts hyperparameters "C" and "max_iter" as arguments which will be used in the hyperdrive config setup. 
